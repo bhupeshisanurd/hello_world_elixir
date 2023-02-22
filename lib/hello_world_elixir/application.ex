@@ -9,7 +9,7 @@ defmodule HelloWorldElixir.Application do
   def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      HelloWorldElixir.Repo,
+      # HelloWorldElixir.Repo,
       # Start the Telemetry supervisor
       HelloWorldElixirWeb.Telemetry,
       # Start the PubSub system
